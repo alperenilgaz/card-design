@@ -67,7 +67,7 @@ body {
 }
 
 .team-player{
-  margin-top: 25px;
+  margin-top: 50px;
   display: flex;
   justify-content: space-between;
   font-size: 13px;
@@ -79,74 +79,7 @@ body {
   font-size: 20px;
 }
 
-.codePen {
-  text-align: center; 
 
-}
-.codePen i{
-  margin-right: 10px;
-}
-.codePen button{
-  background-color: #333;
-  color: #fff;
-  padding: 6px 15px;
-  border-radius: 10px;
-  cursor: pointer;
-  
-} 
-.modal{
-  display: none;
-  background-color: #000;
-
-  margin: 35px auto;
-  position: absolute;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  transform: translateY(-100%);
-  
-}
-.codePen button:hover + .modal {
-  display: flex;
-  transform: translateY(0);
- 
-}
-.modal .header{
-  color: #fff;
-  position: absolute;
-  top: 4px;
-  right: 4px;
-  font-size: 10px;
-  display: flex;
-  gap: 10px;
-}
-.row{
-  color: #ffff;
-  font-size: 10px;
-  bottom: 5px;
-  font-size: 8px;
-  position: absolute;
-  left: 5px;
-}
-.row u {
-  display: flex;
-  flex-direction: column;
-}
-.row li {
-  margin-bottom: 6px;
-}
-.content li{
-  font-size: 4px;
-  color: #fff;
-  margin: 12px;
-}
-.content-wrap{
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  margin-top: 12px;
-}
 
 .container > .card:nth-child(1) {
   grid-column: 2;
