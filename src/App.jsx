@@ -1,4 +1,5 @@
 import './App.css';
+import Certificate from './Components/Certificate';
 
 const TeamData = [
   {
@@ -86,11 +87,14 @@ function TeamCard({ place, icon, team, teamPlayers, score }) {
 
 function App() {
   return (
-    <div className="container">
-      {TeamData.map((data, index) => (
-        <TeamCard key={index} {...data} />
-      ))}
-    </div>
+    // <div className="container">
+    //   {TeamData.map((data, index) => (
+    //     <TeamCard key={index} {...data} />
+    //   ))}
+    // </div>
+    <>
+      <Certificate/>
+    </>
   );
 }
 

@@ -1,0 +1,78 @@
+.certificate-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.certificate{
+    background:url("../Assets/img/background.jpg");
+    width: 700px;
+    height: 500px;
+    position: relative;
+    color: #fff;
+}
+.certificate-header{
+  display: flex;
+  margin: 20px;
+  gap: 50px;
+  align-items: center;
+}
+.certificate-header .header-title{
+    font-size: 20px;
+}
+.certificate-content{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+.certificate-content .rank{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+.certificate-content .rank i,span{
+    color: rgb(206, 180, 32);
+}
+.certificate-content .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.certificate-content .info .winner{
+    background: url("../Assets/img/ButtonBackgroun.jpg");
+    width: 300px;
+    border-radius: 18px;
+    text-align: center;
+    height: 40px;
+    margin-top: 20px;
+}
+.info .winner h2{
+    margin: 6px auto;
+}
+.certificate-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    padding: 35px;
+}
+.certificate-footer i{
+    font-size: 35px;
+}
+
+.certificate-footer .score, .linkedin, .department{
+    text-align: center;
+}
+.certificate-footer p{
+    margin-top: 10px;
+    font-size: 17px;
+}
+.certificate-footer{
+    
+
+}
