@@ -1,45 +1,43 @@
 import React from 'react'
 import "./certificate.css"
-import logo from "../Assets/img/logo.jpg"
+
 const Certificate = () => {
   return (
     <div className="certificate-container">
-        <div className="certificate">
-            <div className="certificate-header">
-               <div className="logo">
-                <img style={{width:"100px"}} src={logo} alt="" />
-               </div>
-               <div className="header-title">
-                <p>ATASENG ALGORİTMA YARIŞMA SERTİFİKASI</p>
-               </div>
-            </div>
-            <div className="certificate-content">
-                <div className="rank">
-                    <span>1st</span><i class="bi bi-trophy-fill"></i>
-                </div>
-                <div className="info">
-                    <p>2023-2024 ATASENG Algoritma Yarışması 1.’si</p>
-                    <div className="winner">
-                        <h2>Alperen İlgaz</h2>
-                    </div>
-                </div>
-            </div>
-            <div className="certificate-footer">
-                <div className="score">
-                <i class="bi bi-code-slash"></i>
-                <p>Toplam 490 puan aldı</p>
-                </div>
-                <div className="department">
-                <i class="bi bi-mortarboard"></i>
-                <p>Yazılım Mühendisliği</p>
-                </div>
-                <div className="linkedin">
-                <i class="bi bi-linkedin"></i>
-                <p>Linkedin</p>
-                </div>
-            </div>
+      <div className="start-elements">
+        <div className="cert-title">
+          Başarı Belgesi
         </div>
-    </div>
+        <div className="cert-winner">
+          Alperen İlgaz
+        </div>
+          <div className="cert-descrip">
+            <p>Bu belge, ATASENG Kulübü tarafından düzenlenen 1. Geleneksel Algoritma Yarışması'nda üstün başarı göstererek birincilik derecesi elde eden 
+            Alperen İlgaz'a takdim edilmiştir. </p>
+          </div>
+          <div className="cert-footer">
+            <div className="best-leader">
+              <div className="advisor">
+                ATASENG Kulüp Danışmanı
+              </div>
+              
+              <div className="advisor-name">
+                <p>Osman Durdağ</p>
+              </div>
+            </div>
+            <div className="cert-date">
+              <div className="date-header">
+                  Tarih
+              </div>
+              <p id='date'>26.05.2024</p>
+            </div>
+          </div>
+          </div>
+         
+          
+      </div>
+      
+
   )
 }
 
